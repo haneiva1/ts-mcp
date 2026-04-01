@@ -1,0 +1,22 @@
+{
+  "name": "ts-mcp",
+  "version": "0.1.0",
+  "description": "TypeScript framework for building MCP servers — decorator syntax, zero boilerplate",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": ["mcp","model-context-protocol","typescript","ai","anthropic","claude","cursor","decorators"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
